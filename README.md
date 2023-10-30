@@ -4,11 +4,15 @@ Fancy login page
 
 ## Description
 
-Developing a mock login page by using HTML/CSS/JS.
+Developing a fancy login page by using HTML/CSS/JS.
+
+## Acknowledgments
+
+Design template : AsmrProg - [GitHub](https://github.com/AsmrProg-YT/Modern-Login)
 
 ## Authors
 
-- G-Just : [Github](https://github.com/G-Just)
+- G-Just : [Github](https:/ub.com/G-Just)
 
 ## Deployed website
 

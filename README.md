@@ -12,4 +12,4 @@ Developing a mock login page by using HTML/CSS/JS.
 
 ## Deployed website
 
-Deployed using github pages :
+Deployed using github pages : https://g-just.github.io/fancy-login-design/

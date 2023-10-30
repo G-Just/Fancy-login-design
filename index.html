@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Fancy Login Page</title>
+  </head>
+  <body>
+    <div id="content">
+      <div id="signin">
+        <h1>Sign In</h1>
+        <div class="socials">
+          <a href="https://www.google.com/"
+            ><img src="./icons/google.svg" alt="sign in with google"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="./icons/facebook.svg" alt="sign in with facebook"
+          /></a>
+          <a href="https://github.com/"
+            ><img src="./icons/github.svg" alt="sign in with github"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="./icons/linkedin.svg" alt="sign in with linkedin"
+          /></a>
+        </div>
+        <form action="">
+          <label for="">or use email and password</label>
+          <input type="text" name="email" id="email-input" placeholder="Email" />
+          <input type="text" name="password" id="password-input" placeholder="Password" />
+          <a href="#">Forgot your password?</a>
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+      <div id="signup" style="display: none">
+        <h1>Sign Up</h1>
+        <div class="socials">
+          <a href="https://www.google.com/"
+            ><img src="./icons/google.svg" alt="sign in with google"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="./icons/facebook.svg" alt="sign in with facebook"
+          /></a>
+          <a href="https://github.com/"
+            ><img src="./icons/github.svg" alt="sign in with github"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="./icons/linkedin.svg" alt="sign in with linkedin"
+          /></a>
+        </div>
+        <form action="">
+          <label for="">or sign up using email</label>
+          <input type="text" name="name" id="name-input" placeholder="Name" />
+          <input type="text" name="email" id="email-input" placeholder="Email" />
+          <input type="text" name="password" id="password-input" placeholder="Password" />
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+      <div style="left: 480px" id="curtain" class="right">
+        <div id="curtain-text-login" class="curtain-text">
+          <h1>Welcome, back!</h1>
+          <p>Login with your details and lets get the party started!</p>
+          <button class="curtain-move">Sign Up</button>
+        </div>
+        <div style="left: -960px" id="curtain-text-register" class="curtain-text">
+          <h1>Greetings, traveler!</h1>
+          <p>Sign Up and get access to wide verity of features</p>
+          <button class="curtain-move">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

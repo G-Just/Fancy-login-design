@@ -1,0 +1,152 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --gr: rgba(0, 0, 0, 0.3);
+  /* --pur: rgb(71, 51, 148); */
+  --pur: linear-gradient(90deg, rgba(61, 0, 119, 1) 0%, rgba(51, 0, 82, 1) 100%);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(175, 194, 203);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+  width: 50%;
+  height: 60%;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 5px var(--gr);
+  display: flex;
+  position: relative;
+}
+
+#signin {
+  text-align: center;
+  width: 50%;
+  padding: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#signup {
+  text-align: center;
+  width: 50%;
+  padding: 50px;
+  position: absolute;
+  right: 220px;
+  top: 0;
+  bottom: 0;
+}
+h1 {
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.socials > a {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 15px;
+  outline: 1px solid var(--gr);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+form > input {
+  font-size: 1em;
+  padding: 1em;
+  border: none;
+  outline: none;
+  background: rgb(237, 237, 237);
+  width: 100%;
+}
+
+form > a {
+  text-decoration: none;
+  color: grey;
+}
+
+form > button {
+  margin-top: 10px;
+  color: white;
+  background: var(--pur);
+  border: none;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#curtain {
+  overflow: hidden;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: var(--pur);
+  color: white;
+  border-radius: 30% 30px 30px 30%;
+  gap: 15px;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.curtain-text {
+  position: absolute;
+}
+
+.curtain-text > h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.curtain-text > p {
+  text-align: center;
+  font-size: 1.5em;
+  width: 480px;
+  padding: 50px;
+}
+
+.curtain-text > button {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
